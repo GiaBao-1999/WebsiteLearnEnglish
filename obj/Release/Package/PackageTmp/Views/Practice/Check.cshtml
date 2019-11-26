@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Project.Models.Question>
+@{
+    ViewBag.Title = "Check";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<section class="feature-area">
+    <div class="container">
+        <div class="whole-wrap">
+            <div class="row feature-item">
+                <div class="col-md-6">
+                    <div class="single-defination">
+                        <h4>Bài làm của bạn</h4>
+                        <ol class="ordered-list">
+                            @foreach (var item in Model)
+                            {
+                                <li>
+                                    @item.NoiDungCauHoi
+                                    <ul class="unordered-list">
+                                        @foreach (var x in item.ListCauTraLoi)
+                                        {
+                                            <li>@x.NoiDungCauTraLoi</li>
+                                        }
+                                    </ul>
+                                </li>
+                            }
+                        </ol>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    @using Project.Models;
+                    @{ 
+                        int id = ViewBag.idbaitap;
+                        var db = new DataProvider();
+                        BAI_TAP baitap = db.BAI_TAP.SingleOrDefault(x => x.IDBaiTap == id);
+                    }
+                    @Html.Partial("TrueAnswer", baitap)
+                </div>
+                <div class="col-md-12 text-center">
+                    @Html.ActionLink("Quay lại bài học", "Index", "Lesson", new { ID=baitap.IDBaiHoc})
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+

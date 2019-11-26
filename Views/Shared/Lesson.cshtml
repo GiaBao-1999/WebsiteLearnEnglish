@@ -1,0 +1,20 @@
+﻿@model Project.Models.BAI_HOC
+<div class="single-post row">
+    <div class="col-lg-12">
+        <div class="feature-img">
+            <div class="img-fluid">
+                @Html.Raw(Model.NoiDungBaiHoc)
+            </div>
+        </div>
+    </div>
+
+    <div class="col-lg-12 col-md-12">
+        <h3 class="mt-20 mb-20">@Model.TenBaiHoc</h3>
+    </div>
+    <div class="col-lg-12">
+        <div class="quotes">
+            @Model.MoTaBaiHoc
+            @Html.ActionLink("Bài Tập","Index","Practice",new { ID = Model.IDBaiHoc},new { @class="btn btn-primary"})
+        </div>
+    </div>
+</div>

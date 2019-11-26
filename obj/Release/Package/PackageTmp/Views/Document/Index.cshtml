@@ -1,0 +1,24 @@
+﻿@model IEnumerable<Project.Models.TAI_LIEU>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<section class="courses-area section-gap">
+    <div class="container">
+        <div class="row align-items-center">
+            <div class="col-md-12">
+                <div class="typography">
+                    <h1>Tài Liệu</h1>
+                </div>
+                @foreach (var item in Model)
+                {
+                    <div class="row">
+                        <div class="col-sm-8">@item.TenTaiLieu</div>
+                        <div class="col-sm-4">@Html.ActionLink("Download","Download",new { ID=item.IDTaiLieu})</div>
+                    </div>
+                }
+            </div>
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,41 @@
+﻿@model IEnumerable<Project.Models.BAI_TAP>
+@{
+    ViewBag.Title = "Practice";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<section class="feature-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h1>Luyện Tập</h1>
+                    <p>
+                        If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for
+                        as low as $.17 each.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="feature-inner row">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item">
+                        <i class="ti-files"></i>
+                        <h4>Bài tâp @item.IDBaiTap</h4>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                            <ul class="unordered-list">
+                                <li>Số lượng câu hỏi: @item.SoLuongCauHoi</li>
+                                <li>Cấp độ: @item.CAP_DO_CAU_HOI.TenCapDo</li>
+                            </ul>
+                        </div>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                            @Html.ActionLink("Làm bài","LamBai","Practice",new { ID = item.IDBaiTap},new { @class="primary-btn"})
+                        </div>
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+

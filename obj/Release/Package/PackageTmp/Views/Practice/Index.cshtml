@@ -1,0 +1,33 @@
+﻿@model IEnumerable<Project.Models.BAI_TAP>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<section class="feature-area">
+    <div class="container">
+        <div class="row feature-item">
+            <div class="col-sm-12 text-center">
+                <div class="typography">
+                    <h1>Bài Tập </h1>
+                </div>
+            </div>
+            <div class="col-sm-12">
+                <ul class="ordered-list">
+                    @foreach (var item in Model)
+                    {
+                        <li>Bài tâp @item.IDBaiTap
+                    <ul class="unordered-list">
+                        <li>Cấp độ: @item.CAP_DO_CAU_HOI.TenCapDo</li>
+                        <li>Số lượng câu hỏi @item.SoLuongCauHoi</li>
+                        <li>@Html.ActionLink("Làm bài","LamBai", new { ID = item.IDBaiTap}) </li>
+                    </ul>
+                    </li>
+                    }
+                </ul>
+                
+            </div>
+        </div>
+    </div>
+</section>
+

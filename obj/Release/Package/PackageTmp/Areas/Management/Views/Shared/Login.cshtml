@@ -1,0 +1,49 @@
+﻿@model Project.Areas.Management.Models.LoginView
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="~/Content/img/fav.png">
+    <!-- Bootstrap CSS -->
+    <link href="~/Theme/css/bootstrap.min.css" rel="stylesheet">
+    <!-- bootstrap theme -->
+    <link href="~/Theme/css/bootstrap-theme.css" rel="stylesheet">
+    <!--external css-->
+    <!-- font icon -->
+    <link href="~/Theme/css/elegant-icons-style.css" rel="stylesheet" />
+    <link href="css/font-awesome.css" rel="stylesheet" />
+    <!-- Custom styles -->
+    <link href="~/Theme/css/style.css" rel="stylesheet">
+    <link href="~/Theme/css/style-responsive.css" rel="stylesheet" />
+    <title>Login</title>
+</head>
+<body class="login-img3-body" style="background-image:url(../../../../Content/img/header-bg.png)">
+    <div class="container">
+        <form class="login-form" action="/Management/Manager/Login" method="post">
+            <div class="login-wrap">
+                <p class="login-img"><i class="icon_lock_alt"></i></p>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_profile"></i></span>
+                    <input type="text" name="Username" class="form-control" placeholder="Username" autofocus>
+                    @Html.ValidationMessageFor(model => model.Username, "", new { @class="text-danger"})
+                </div>
+                <div class="input-group">
+                    <span class="input-group-addon"><i class="icon_key_alt"></i></span>
+                    <input type="password" name="Password" class="form-control" placeholder="Password">
+                    @Html.ValidationMessageFor(model=>model.Password,"",new { @class="text-danger"})
+                </div>
+                <div class="checkbox">
+                    @Html.ValidationSummary(true,"",new { @class="text-danger"})
+                </div>
+                <input type="submit" class="btn btn-primary btn-lg btn-block" value="Login" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>

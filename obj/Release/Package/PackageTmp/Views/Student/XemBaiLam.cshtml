@@ -1,0 +1,31 @@
+﻿@model IEnumerable<Project.Models.CAU_TRA_LOI>
+@{
+    ViewBag.Title = "XemBaiLam";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<section class="feature-area">
+    <div class="container">
+        <form action="/Practice/Finish" method="post">
+            <div class="row feature-item">
+                <div class="col-sm-12 text-center">
+                    <div class="typography">
+                        <h1>Xem bài làm bài tập @ViewBag.mabaitap </h1>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+
+                    <ol class="ordered-list">
+                        @foreach (var item in Model)
+                        {
+                            <li>
+                                @item.CAU_HOI.NoiDungCauHoi<br />
+                                @item.NoiDungCauTraLoi | @item.LaDapAn
+                            </li>
+                        }
+                    </ol>
+                </div>
+            </div>
+        </form>
+    </div>
+</section>
+

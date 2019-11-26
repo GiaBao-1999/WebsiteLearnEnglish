@@ -1,0 +1,26 @@
+﻿@model Project.Areas.Management.Models.DoiPass
+@{
+    ViewBag.Title = "DoiPass";
+    Layout = "~/Areas/Management/Views/Shared/_LayoutManager.cshtml";
+}
+<div class="row">
+    <div class="col-lg-12">
+       
+            @using (Html.BeginForm())
+            {
+                <div class="form-group">
+                    <label>Nhập mật khẩu mới</label>
+                    @Html.PasswordFor(model=>model.NewPass,new { @class="form-control"})
+                    @Html.ValidationMessageFor(model=>model.NewPass,"",new { @class="text-danger"})
+                </div>
+                <div class="form-group">
+                    <label>Nhập lại mật khẩu</label>
+                    @Html.PasswordFor(model => model.PassConfirm, new { @class = "form-control" })
+                    @Html.ValidationMessageFor(model => model.PassConfirm, "", new { @class = "text-danger" })
+                </div>
+                <input type="submit" value="Đổi" class="btn btn-warning" />
+            }
+    
+    </div>
+</div>
+

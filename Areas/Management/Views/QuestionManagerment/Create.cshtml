@@ -1,0 +1,47 @@
+﻿@model Project.Models.CAU_HOI
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Management/Views/Shared/_LayoutManager.cshtml";
+}
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="page-header"><i class="fa fa-laptop"></i> Quản Trị</h3>
+        <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+            <li><i class="fa fa-info"></i><a href="#">Tạo câu hỏi</a></li>
+        </ol>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">
+                Tạo câu hỏi
+            </header>
+            <div class="panel-body">
+              @using (Html.BeginForm())
+              {
+                  <div class="form-group">
+                      <label>Nội dung câu hỏi</label>
+                      @Html.TextBoxFor(model=>model.NoiDungCauHoi,new { @class="form-control"})
+                      @Html.ValidationMessageFor(model=>model.NoiDungCauHoi,"",new { @class="text-danger"})
+                  </div>
+                <div class="form-group">
+                    <label>Số lượng đáp án</label>
+                    <input type="number" class="form-control" name="SoCauTraLoi" />
+                    @Html.ValidationMessageFor(model => model.SoCauTraLoi, "", new { @class = "text-danger" })
+                </div>
+                <div class="form-group">
+                    <label>Loại câu hỏi</label><br />
+                    <input type="radio" name="LoaiCauHoi" checked="checked" value="False" /> Trắc nghiệm <br>
+                    <input type="radio" name="LoaiCauHoi" value="True" /> Nghe <br>
+                    @Html.ValidationMessageFor(model => model.LoaiCauHoi, "", new { @class = "text-danger" })
+                </div>
+                <input type="submit" value="Lưu" class="btn btn-primary" />
+              }
+            </div>
+        </section>
+    </div>
+</div>
+
+

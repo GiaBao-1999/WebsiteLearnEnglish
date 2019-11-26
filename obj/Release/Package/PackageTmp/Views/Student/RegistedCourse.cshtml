@@ -1,0 +1,50 @@
+﻿@model IEnumerable<Project.Models.DANG_KY>
+@{
+    ViewBag.Title = "RegistedCourse";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<section class="feature-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h1>Các Khóa Học Đã Đăng Ký</h1>
+                    <p>
+                        If you are looking at blank cassettes on the web, you may be very confused at the difference in price. You may see some for
+                        as low as $.17 each.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="feature-inner row">
+            @foreach (var item in Model)
+            {
+                <div class="col-lg-4 col-md-6">
+                    <div class="feature-item">
+                        <div class="row">
+                            <div class="col-sm-12">
+                                <img src="~/Content/img/PicEnglish/@item.KHOA_HOC.img" style="width:269px;height:155px;" />
+                            </div>
+                        </div>
+                        <h4 class="text-center"><span style="font-size:14px;">@item.KHOA_HOC.TenKhoaHoc</span></h4>
+                        <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".1s">
+                            <ul class="unordered-list">
+                                <li>Học viên tham gia: <span class="text-danger">@item.KHOA_HOC.DANG_KY.Count()</span> </li>
+                                <li>Số lượng bài hoc: <span class="text-danger">@item.KHOA_HOC.BAI_HOC.Count()</span> </li>
+                            </ul>
+                        </div>
+                        <div class="row" style="margin-top:5px;">
+                            <div class="col-sm-12 text-center">
+
+                                @Html.ActionLink("Vào học", "Index", "Lesson", new { ID = item.IDKhoaHoc }, new { @class = "primary-btn" })
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
+            }
+        </div>
+    </div>
+</section>
+

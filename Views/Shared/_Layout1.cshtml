@@ -1,0 +1,226 @@
+﻿@using Project.Models
+@{ 
+    HOC_VIEN student = (HOC_VIEN)Session["HocVien"];
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Shine</title>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="~/Content/img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="codepixer">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <!--
+            Google Font
+            ============================================= -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,500,600" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500i" rel="stylesheet">
+    <!--
+            CSS
+            ============================================= -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/themify-icons/0.1.2/css/themify-icons.css">
+    <link rel="stylesheet" href="~/Content/css/linearicons.css">
+    <link rel="stylesheet" href="~/Content/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Content/css/bootstrap.css">
+    <link rel="stylesheet" href="~/Content/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/Content/css/nice-select.css">
+    <link rel="stylesheet" href="~/Content/css/animate.min.css">
+    <link rel="stylesheet" href="~/Content/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/Content/css/main.css">
+</head>
+<body>
+
+    <header id="header">
+        <div class="container">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="index.html"><img src="~/Content/img/logo.png" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu">
+                        <li class="menu-active"><a href="/Default/Index">Home</a></li>
+                        <li><a href="/Student/Register">Register</a></li>
+                        <li><a href="/Default/Index">Courses</a></li>
+                        <li class="menu-has-children">
+                            <a href="">Pages</a>
+                            <ul>
+                                <li><a href="#">Elements</a></li>
+                            </ul>
+                        </li>
+                        <li class="menu-has-children">
+                            <a href="">Blog</a>
+                            <ul>
+                                <li><a href="#">Blog Home</a></li>
+                                <li><a href="#">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="/Management">Managerment</a></li>
+                    </ul>
+                </nav><!-- #nav-menu-container -->
+            </div>
+        </div>
+    </header>
+
+    <section class="home-banner-area relative">
+        <div class="container">
+            <div class="row fullscreen d-flex align-items-center justify-content-center">
+                <div class="banner-content col-lg-8 col-md-12">
+                    <h1 class="wow fadeIn" data-wow-duration="4s">Together Foward you <br> to the Future</h1>
+                    <p class="text-white">
+                         Shine trang web học tiếng anh miễn phí. Nơi trao dồi kiến thức, cùng bạn chinh phục tiếng anh
+                    </p>
+                    <div class="input-wrap">
+                        <form action="" class="form-box d-flex justify-content-between">
+                            <input type="text" placeholder="Search Courses" class="form-control" name="username">
+                            <button type="submit" class="btn search-btn">Search</button>
+                        </form>
+                    </div>
+                    @{
+                        if (student != null)
+                        {
+                            <h4 class="text-white">Hoc viên: @student.HoTen</h4>
+                            <div class="courses pt-20">
+                                <a href="/Student/RegistedCourse/" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">
+                                    Khóa học
+                                </a>
+                                <a href="/Document/Index" data-wow-duration="1s" data-wow-delay=".6s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Tài liệu</a>
+                                <a href="/Student/Practice" data-wow-duration="1s" data-wow-delay=".9s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">Bài tập</a>
+                                <a href="/Student/Info" data-wow-duration="1s" data-wow-delay="1.2s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">
+                                    Thông tin cá nhân
+                                </a>
+                                
+                            </div>
+                        }
+                        else
+                        {
+                            <div class="courses pt-20">
+                                <a href="/Student/Login" data-wow-duration="1s" data-wow-delay=".3s" class="primary-btn transparent mr-10 mb-10 wow fadeInDown">
+                                    Login
+                                </a>
+                            </div>
+                        }
+                    } 
+                </div>
+            </div>
+        </div>
+        <div class="rocket-img">
+            <img src="~/Content/img/rocket.png" alt="">
+        </div>
+    </section>
+
+
+        @RenderBody()
+ 
+
+
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-2 col-md-6 single-footer-widget">
+                    <h4>Top Products</h4>
+                    <ul>
+                        <li><a href="/Management">Quản trị website</a></li>
+                        <li><a href="#">Manage Reputation</a></li>
+                        <li><a href="#">Power Tools</a></li>
+                        <li><a href="#">Marketing Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 single-footer-widget">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Brand Assets</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 single-footer-widget">
+                    <h4>Features</h4>
+                    <ul>
+                        <li><a href="#">Jobs</a></li>
+                        <li><a href="#">Brand Assets</a></li>
+                        <li><a href="#">Investor Relations</a></li>
+                        <li><a href="#">Terms of Service</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-2 col-md-6 single-footer-widget">
+                    <h4>Resources</h4>
+                    <ul>
+                        <li><a href="#">Guides</a></li>
+                        <li><a href="#">Research</a></li>
+                        <li><a href="#">Experts</a></li>
+                        <li><a href="#">Agencies</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 col-md-6 single-footer-widget">
+                    <h4>Newsletter</h4>
+                    <p>You can trust us. we only send promo offers,</p>
+                    <div class="form-wrap" id="mc_embed_signup">
+                        <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                              method="get" class="form-inline">
+                            <input class="form-control" name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                                   required="" type="email">
+                            <button class="click-btn btn btn-default"><span class="lnr lnr-arrow-right"></span></button>
+                            <div style="position: absolute; left: -5000px;">
+                                <input name="b_36c4fd991d266f23781ded980_aefe40901a" tabindex="-1" value="" type="text">
+                            </div>
+                            <div class="info"></div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom row align-items-center">
+                <p class="footer-text m-0 col-lg-8 col-md-12">
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                    Copyright &copy;
+                    <script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                    <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                </p>
+                <div class="col-lg-4 col-md-12 footer-social">
+                    <a href="#"><i class="fa fa-facebook"></i></a>
+                    <a href="#"><i class="fa fa-twitter"></i></a>
+                    <a href="#"><i class="fa fa-dribbble"></i></a>
+                    <a href="#"><i class="fa fa-behance"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer Area -->
+    <!-- ####################### Start Scroll to Top Area ####################### -->
+    <div id="back-top">
+        <a title="Go to Top" href="#"></a>
+    </div>
+    <!-- ####################### End Scroll to Top Area ####################### -->
+    <script src="~/Content/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+    <script src="~/Content/js/vendor/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="~/Content/js/easing.min.js"></script>
+    <script src="~/Content/js/hoverIntent.js"></script>
+    <script src="~/Content/js/superfish.min.js"></script>
+    <script src="~/Content/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/Content/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Content/js/owl.carousel.min.js"></script>
+    <script src="~/Content/js/owl-carousel-thumb.min.js"></script>
+    <script src="~/Content/js/jquery.sticky.js"></script>
+    <script src="~/Content/js/jquery.nice-select.min.js"></script>
+    <script src="~/Content/js/parallax.min.js"></script>
+    <script src="~/Content/js/waypoints.min.js"></script>
+    <script src="~/Content/js/wow.min.js"></script>
+    <script src="~/Content/js/jquery.counterup.min.js"></script>
+    <script src="~/Content/js/mail-script.js"></script>
+    <script src="~/Content/js/main.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,25 @@
+﻿@model Project.Models.BAI_TAP
+<div class="single-defination">
+    <h4>Đáp Án Đúng</h4>
+    @using Project.Models
+    @{ 
+        var debai = new Model1();
+        var db = new DataProvider();
+        List<DE_BAI> dapan = debai.DE_BAI.Where(x => x.IDBaiTap == Model.IDBaiTap).ToList();
+    }
+    <ol class="ordered-list">
+        @foreach (DE_BAI d in dapan)
+        {
+            CAU_HOI q = db.CAU_HOI.SingleOrDefault(x => x.MaCauHoi == d.MaCauHoi);
+
+            <li>
+                @q.NoiDungCauHoi
+                <ul class="unordered-list">
+                    <li>@q.CAU_TRA_LOI.SingleOrDefault(x => x.MaCauHoi == q.MaCauHoi && x.LaDapAn == true).NoiDungCauTraLoi</li>
+                </ul>
+            </li>
+        }
+    </ol>
+        
+</div>
+

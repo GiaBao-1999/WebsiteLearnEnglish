@@ -1,0 +1,316 @@
+C:\Project\Project\bin\ApplicationInsights.config
+C:\Project\Project\bin\roslyn\csc.exe
+C:\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+C:\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+C:\Project\Project\bin\roslyn\vbc.exe
+C:\Project\Project\bin\roslyn\VBCSCompiler.exe
+C:\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+C:\Project\Project\bin\Project.dll.config
+C:\Project\Project\bin\Project.dll
+C:\Project\Project\bin\Project.pdb
+C:\Project\Project\bin\EntityFramework.dll
+C:\Project\Project\bin\EntityFramework.SqlServer.dll
+C:\Project\Project\bin\Microsoft.AI.Agent.Intercept.dll
+C:\Project\Project\bin\Microsoft.AI.DependencyCollector.dll
+C:\Project\Project\bin\Microsoft.AI.PerfCounterCollector.dll
+C:\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+C:\Project\Project\bin\Microsoft.AI.Web.dll
+C:\Project\Project\bin\Microsoft.AI.WindowsServer.dll
+C:\Project\Project\bin\Microsoft.ApplicationInsights.dll
+C:\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+C:\Project\Project\bin\System.Web.Helpers.dll
+C:\Project\Project\bin\System.Web.Mvc.dll
+C:\Project\Project\bin\System.Web.Razor.dll
+C:\Project\Project\bin\System.Web.Webpages.Deployment.dll
+C:\Project\Project\bin\System.Web.Webpages.dll
+C:\Project\Project\bin\System.Web.Webpages.Razor.dll
+C:\Project\Project\bin\EntityFramework.xml
+C:\Project\Project\bin\EntityFramework.SqlServer.xml
+C:\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+C:\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+C:\Project\Project\bin\Microsoft.AI.Web.xml
+C:\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+C:\Project\Project\bin\Microsoft.ApplicationInsights.xml
+C:\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Project\Project\bin\System.Web.Razor.xml
+C:\Project\Project\bin\System.Web.Webpages.xml
+C:\Project\Project\bin\System.Web.Webpages.Deployment.xml
+C:\Project\Project\bin\System.Web.Webpages.Razor.xml
+C:\Project\Project\bin\System.Web.Helpers.xml
+C:\Project\Project\bin\System.Web.Mvc.xml
+C:\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+C:\Project\Project\obj\Debug\Project.dll
+C:\Project\Project\obj\Debug\Project.pdb
+E:\ASP.NET(MVC)\Project\Project\bin\ApplicationInsights.config
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\csc.exe
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\vbc.exe
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\VBCSCompiler.exe
+E:\ASP.NET(MVC)\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+E:\ASP.NET(MVC)\Project\Project\bin\Project.dll.config
+E:\ASP.NET(MVC)\Project\Project\bin\Project.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Project.pdb
+E:\ASP.NET(MVC)\Project\Project\bin\EntityFramework.dll
+E:\ASP.NET(MVC)\Project\Project\bin\EntityFramework.SqlServer.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.DependencyCollector.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.Web.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.WindowsServer.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.ApplicationInsights.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Helpers.dll
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Mvc.dll
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Razor.dll
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.Deployment.dll
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.dll
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.Razor.dll
+E:\ASP.NET(MVC)\Project\Project\bin\EntityFramework.xml
+E:\ASP.NET(MVC)\Project\Project\bin\EntityFramework.SqlServer.xml
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.Web.xml
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.ApplicationInsights.xml
+E:\ASP.NET(MVC)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Razor.xml
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.xml
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.Deployment.xml
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.Razor.xml
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Helpers.xml
+E:\ASP.NET(MVC)\Project\Project\bin\System.Web.Mvc.xml
+E:\ASP.NET(MVC)\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+E:\ASP.NET(MVC)\Project\Project\obj\Debug\Project.dll
+E:\ASP.NET(MVC)\Project\Project\obj\Debug\Project.pdb
+I:\ASP.NET(MVC)\Project\Project\bin\ApplicationInsights.config
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\csc.exe
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\vbc.exe
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\VBCSCompiler.exe
+I:\ASP.NET(MVC)\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+I:\ASP.NET(MVC)\Project\Project\bin\Project.dll.config
+I:\ASP.NET(MVC)\Project\Project\bin\Project.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Project.pdb
+I:\ASP.NET(MVC)\Project\Project\bin\EntityFramework.dll
+I:\ASP.NET(MVC)\Project\Project\bin\EntityFramework.SqlServer.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.Agent.Intercept.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.DependencyCollector.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.Web.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.WindowsServer.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.ApplicationInsights.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Helpers.dll
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Mvc.dll
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Razor.dll
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.Deployment.dll
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.dll
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.Razor.dll
+I:\ASP.NET(MVC)\Project\Project\bin\EntityFramework.xml
+I:\ASP.NET(MVC)\Project\Project\bin\EntityFramework.SqlServer.xml
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.Web.xml
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.ApplicationInsights.xml
+I:\ASP.NET(MVC)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Razor.xml
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.xml
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.Deployment.xml
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Webpages.Razor.xml
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Helpers.xml
+I:\ASP.NET(MVC)\Project\Project\bin\System.Web.Mvc.xml
+I:\ASP.NET(MVC)\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+I:\ASP.NET(MVC)\Project\Project\obj\Debug\Project.dll
+I:\ASP.NET(MVC)\Project\Project\obj\Debug\Project.pdb
+E:\ASP.NET(MVC)\Project\Project\bin\PagedList.dll
+E:\ASP.NET(MVC)\Project\Project\bin\PagedList.Mvc.dll
+E:\ASP.NET(MVC)\Project\Project\bin\PagedList.xml
+E:\ASP.NET(MVC)\Project\Project\bin\PagedList.Mvc.xml
+E:\ASP.NET(Webform)\Project\Project\bin\ApplicationInsights.config
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\csc.exe
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\vbc.exe
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\VBCSCompiler.exe
+E:\ASP.NET(Webform)\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+E:\ASP.NET(Webform)\Project\Project\bin\Project.dll.config
+E:\ASP.NET(Webform)\Project\Project\bin\Project.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Project.pdb
+E:\ASP.NET(Webform)\Project\Project\bin\EntityFramework.dll
+E:\ASP.NET(Webform)\Project\Project\bin\EntityFramework.SqlServer.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Agent.Intercept.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.DependencyCollector.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Web.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.WindowsServer.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.ApplicationInsights.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+E:\ASP.NET(Webform)\Project\Project\bin\PagedList.dll
+E:\ASP.NET(Webform)\Project\Project\bin\PagedList.Mvc.dll
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Helpers.dll
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Mvc.dll
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Razor.dll
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Deployment.dll
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.dll
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Razor.dll
+E:\ASP.NET(Webform)\Project\Project\bin\EntityFramework.xml
+E:\ASP.NET(Webform)\Project\Project\bin\EntityFramework.SqlServer.xml
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Web.xml
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.ApplicationInsights.xml
+E:\ASP.NET(Webform)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\ASP.NET(Webform)\Project\Project\bin\PagedList.xml
+E:\ASP.NET(Webform)\Project\Project\bin\PagedList.Mvc.xml
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Razor.xml
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.xml
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Deployment.xml
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Razor.xml
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Helpers.xml
+E:\ASP.NET(Webform)\Project\Project\bin\System.Web.Mvc.xml
+E:\ASP.NET(Webform)\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+E:\ASP.NET(Webform)\Project\Project\obj\Debug\Project.dll
+E:\ASP.NET(Webform)\Project\Project\obj\Debug\Project.pdb
+I:\ASP.NET(Webform)\Project\Project\bin\ApplicationInsights.config
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\csc.exe
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\vbc.exe
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\VBCSCompiler.exe
+I:\ASP.NET(Webform)\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+I:\ASP.NET(Webform)\Project\Project\bin\Project.dll.config
+I:\ASP.NET(Webform)\Project\Project\bin\Project.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Project.pdb
+I:\ASP.NET(Webform)\Project\Project\bin\EntityFramework.dll
+I:\ASP.NET(Webform)\Project\Project\bin\EntityFramework.SqlServer.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Agent.Intercept.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.DependencyCollector.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.PerfCounterCollector.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Web.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.WindowsServer.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.ApplicationInsights.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+I:\ASP.NET(Webform)\Project\Project\bin\PagedList.dll
+I:\ASP.NET(Webform)\Project\Project\bin\PagedList.Mvc.dll
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Helpers.dll
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Mvc.dll
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Razor.dll
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Deployment.dll
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.dll
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Razor.dll
+I:\ASP.NET(Webform)\Project\Project\bin\EntityFramework.xml
+I:\ASP.NET(Webform)\Project\Project\bin\EntityFramework.SqlServer.xml
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Web.xml
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.ApplicationInsights.xml
+I:\ASP.NET(Webform)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\ASP.NET(Webform)\Project\Project\bin\PagedList.xml
+I:\ASP.NET(Webform)\Project\Project\bin\PagedList.Mvc.xml
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Razor.xml
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.xml
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Deployment.xml
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Razor.xml
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Helpers.xml
+I:\ASP.NET(Webform)\Project\Project\bin\System.Web.Mvc.xml
+I:\ASP.NET(Webform)\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+I:\ASP.NET(Webform)\Project\Project\obj\Debug\Project.dll
+I:\ASP.NET(Webform)\Project\Project\obj\Debug\Project.pdb
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\ApplicationInsights.config
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\csc.exe
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\System.Collections.Immutable.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\System.Reflection.Metadata.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\vbc.exe
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\VBCSCompiler.exe
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\roslyn\VBCSCompiler.exe.config
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Project.dll.config
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Project.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Project.pdb
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\EntityFramework.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\EntityFramework.SqlServer.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Agent.Intercept.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.DependencyCollector.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.PerfCounterCollector.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Web.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.WindowsServer.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.ApplicationInsights.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.Web.Infrastructure.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\PagedList.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\PagedList.Mvc.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Helpers.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Mvc.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Razor.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Deployment.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Razor.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\EntityFramework.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\EntityFramework.SqlServer.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.DependencyCollector.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.ServerTelemetryChannel.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.Web.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.AI.WindowsServer.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.ApplicationInsights.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\PagedList.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\PagedList.Mvc.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Razor.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Deployment.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Webpages.Razor.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Helpers.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\bin\System.Web.Mvc.xml
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\obj\Debug\Project.csprojResolveAssemblyReference.cache
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\obj\Debug\Project.dll
+E:\Tệp bị ẩn bởi Trojan\ASP.NET(Webform)\Project\Project\obj\Debug\Project.pdb

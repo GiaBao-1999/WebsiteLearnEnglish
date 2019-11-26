@@ -1,0 +1,55 @@
+﻿@model Project.Models.KHOA_HOC
+@{
+    ViewBag.Title = "Edit";
+    Layout = "~/Areas/Management/Views/Shared/_LayoutManager.cshtml";
+}
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="page-header"><i class="fa fa-file-text-o"></i> Khóa học: @Model.TenKhoaHoc</h3>
+        <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.html">Home</a></li>
+            <li><i class="icon_document_alt"></i>Xem khóa học</li>
+        </ol>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">Thông tin khóa học: @Model.TenKhoaHoc</header>
+            <div class="panel-body">
+                @using (Html.BeginForm(new { @enctype="multipart/form-data"}))
+                {
+                    <div class="form-group">
+                        <label> Tên khóa học </label>
+                        @Html.TextBoxFor(model => model.TenKhoaHoc, new { @class = "form-control" })
+                    </div>
+                    <div class="form-group">
+                        <label> Ngày tạo </label>
+                        @Html.TextBoxFor(model => model.NgayTao, new { @class = "form-control", @id="dp1"})
+                    </div>
+                    <div class="form-group">
+                        <label> Hình ảnh minh họa </label>
+                        <img src="~/Content/img/PicEnglish/@Model.img" />
+                        <input type="file" class="form-control" name="img" />
+                    </div>
+                    <div class="form-group">
+                        <label> Mô tả khóa học </label>
+                        @Html.EditorFor(model => model.MoTaKhoaHoc)
+                        <script type="text/javascript">
+                            CKEDITOR.replace("MoTaKhoaHoc");
+                        </script>
+                    </div>
+                    <div class="form-group">
+                        <label> Dành cho chứng chỉ </label>
+                        @Html.DropDownList("IDCapDo", null, new { @class="form-control"})
+                    </div>
+                    <input type="hidden" name="IDKhoaHoc" value="@Model.IDKhoaHoc" />
+                    <input type="submit" value="Lưu" class="btn btn-primary"/>
+                }
+            </div>
+        </section>
+       
+    </div>
+</div>
+
+

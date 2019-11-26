@@ -1,0 +1,76 @@
+﻿@model Project.Models.BAI_HOC
+
+@{
+    ViewBag.Title = "Create";
+    Layout = "~/Areas/Management/Views/Shared/_LayoutManager.cshtml";
+}
+
+<div class="row">
+    <div class="col-lg-12">
+        <h3 class="page-header"><i class="fa fa-laptop"></i> Quản Trị</h3>
+        <ol class="breadcrumb">
+            <li><i class="fa fa-home"></i><a href="index.html">@ViewBag.TenKhoaHoc</a></li>
+            <li><i class="icon_mail"></i><a href="">Thêm bài học</a></li>
+        </ol>
+    </div>
+</div>
+<div class="row">
+    <div class="col-lg-12">
+        <section class="panel">
+            <header class="panel-heading">Thêm bài học</header>
+            <div class="panel-body">
+                @using (Html.BeginForm())
+                {
+                    @Html.AntiForgeryToken()
+
+                        @Html.ValidationSummary(true, "", new { @class = "text-danger" })
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.TenBaiHoc)
+                          
+                                @Html.EditorFor(model => model.TenBaiHoc, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.TenBaiHoc, "", new { @class = "text-danger" })
+                           
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.MoTaBaiHoc)
+                          
+                                @Html.TextAreaFor(model => model.MoTaBaiHoc, new { @class = "form-control" } )
+
+                            <script type="text/javascript">
+                                CKEDITOR.replace("MoTaBaiHoc");
+                            </script>
+                                @Html.ValidationMessageFor(model => model.MoTaBaiHoc, "", new { @class = "text-danger" })
+                            
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.IDKhoaHoc, "IDKhoaHoc")
+                          
+                                @Html.DropDownList("IDKhoaHoc", null, htmlAttributes: new { @class = "form-control" })
+                                @Html.ValidationMessageFor(model => model.IDKhoaHoc, "", new { @class = "text-danger" })
+                            
+                        </div>
+
+                        <div class="form-group">
+                            @Html.LabelFor(model => model.NoiDungBaiHoc)
+                                @Html.EditorFor(model => model.NoiDungBaiHoc, new { htmlAttributes = new { @class = "form-control" } })
+                                @Html.ValidationMessageFor(model => model.NoiDungBaiHoc, "", new { @class = "text-danger" })
+                        </div>
+                        <div class="form-group">
+                            <div class="col-md-offset-2 col-md-10">
+                                <input type="submit" value="Create" class="btn btn-default" />
+                            </div>
+                        </div>
+                    
+                }
+            </div>
+        </section>
+    </div>
+</div>
+
+
+
+<div>
+    @Html.ActionLink("Back to List", "Index")
+</div>

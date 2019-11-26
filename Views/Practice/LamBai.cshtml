@@ -1,0 +1,45 @@
+﻿@model IEnumerable<Project.Models.Question>
+@{
+    ViewBag.Title = "LamBai";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<section class="feature-area">
+    <div class="container">
+        <form action="/Practice/Finish" method="post">
+            <div class="row feature-item">
+                <div class="col-sm-12 text-center">
+                    <div class="typography">
+                        <h1>Bài Tập @ViewBag.mabaitap </h1>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+
+                    <ol class="ordered-list">
+                        @foreach (var item in Model)
+                        {
+                            <li>
+                                @item.NoiDungCauHoi
+                                <ol class="ordered-list-alpha">
+                                    @foreach (var x in item.ListCauTraLoi)
+                                    {
+                                        <li> <input required type="radio" name="@item.MaCauHoi" value="@x.MaCauTraLoi" /> @x.NoiDungCauTraLoi</li>
+                                    }
+                                </ol>
+                            </li>
+                        }
+                    </ol>
+
+
+
+                </div>
+                <div class="col-sm-12 text-center">
+                    <input type="hidden" name="IDBaiTap" value="@ViewBag.mabaitap" />
+                    <input type="submit" value="Hoàn Thành" class="btn btn-info" />
+                </div>
+
+            </div>
+        </form>
+    </div>
+</section>
+

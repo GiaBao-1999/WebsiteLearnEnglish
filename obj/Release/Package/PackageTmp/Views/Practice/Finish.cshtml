@@ -1,0 +1,31 @@
+﻿
+@{
+    ViewBag.Title = "Finish";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+<section class="feature-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3"></div>
+            <div class="col-sm-6">
+                <div class="feature-item">
+                    <i class="ti-files"></i>
+                    <h4>Kết Quả</h4>
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                        <p>
+                            Bài tập @ViewBag.idbaitap
+                        </p>
+                        <p>
+                            Số câu trả lời đúng: <span class="text-danger">@ViewBag.socaudung</span>
+                        </p>
+                    </div>
+                    <div class="wow fadeIn" data-wow-duration="1s" data-wow-delay=".3s">
+                        @Html.ActionLink("Xem đáp án","Check",new { ID = ViewBag.idbaitap},new { @class="primary-btn"})
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3"></div>
+        </div>
+    </div>
+</section>
+

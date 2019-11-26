@@ -1,0 +1,43 @@
+﻿@model Project.Models.KHOA_HOC
+@{
+    ViewBag.Title = "Confirm";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<section class="feature-area">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="section-title text-center">
+                    <h1>Bạn đã đăng ký khóa học thành công</h1>
+                    <p>
+                        Chúc bạn hoàn thành tốt khóa học @Model.TenKhoaHoc
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="about-area section-gap">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5 col-md-6 about-left">
+
+                <img class="img-fluid" src="~/Content/img/PicEnglish/@Model.img" />
+            </div>
+            <div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
+                <h1>
+                    @Model.TenKhoaHoc
+                </h1>
+                <div class="wow fadeIn" data-wow-duration="1s">
+                    <p>
+                        @Model.MoTaKhoaHoc
+                    </p>
+                </div>
+               
+                @Html.ActionLink("Vào học","Index","Lesson",new { ID = Model.IDKhoaHoc},new { @class="primary-btn"})
+            </div>
+        </div>
+    </div>
+</section>
+
+

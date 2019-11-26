@@ -1,0 +1,38 @@
+﻿@model Project.Models.StudentInfo
+@{
+    ViewBag.Title = "Info";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+<section class="about-area section-gap">
+    <div class="container">
+        <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5 col-md-6 about-left">
+                <img class="img-fluid" src="~/Content/img/about.jpg" alt="">
+            </div>
+            <div class="offset-lg-1 col-lg-6 offset-md-0 col-md-12 about-right">
+                <blockquote class="generic-blockquote">
+                    <h1>
+                        Học viên: @Model.HoTen
+                    </h1>
+                    <div class="wow fadeIn" data-wow-duration="1s">
+                        <h5>Các khóa học đã đăng ký</h5>
+                        <ol class="ordered-list">
+                            @foreach (var k in Model.KhoaHocDangKy)
+                            {
+                                <li>@k.TenKhoaHoc</li>
+                            }
+                        </ol>
+                        <h5>Bài tập đã làm</h5>
+                        <ol class="ordered-list">
+                            @foreach (var b in Model.BaiTapDaLam)
+                            {
+                                <li style="margin-top:15px;">Bài tập @b.IDBaiTap | @Html.ActionLink("Xem bài làm","XemBaiLam", new { idbaitap=b.IDBaiTap, hocvien=Model.IdHocVien})</li>
+                            }
+                        </ol>
+                    </div>
+                </blockquote>               
+            </div>
+        </div>
+    </div>
+</section>
+

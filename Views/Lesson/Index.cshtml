@@ -1,0 +1,73 @@
+﻿@model IEnumerable<Project.Models.BAI_HOC>
+@{
+    ViewBag.Title = "Index";
+    Layout = "~/Views/Shared/_Layout1.cshtml";
+}
+
+<section class="post-content-area single-post-area">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-8 posts-list">
+                @using Project.Models
+                @{ 
+                    var db = new DataProvider();
+                    int idlesson = ViewBag.IdLesson;
+                    BAI_HOC lesson = db.BAI_HOC.SingleOrDefault(x => x.IDBaiHoc == idlesson);
+                }
+                @Html.Partial("Lesson", lesson)               
+               
+                @{ 
+                    List<BINH_LUAN> comments = db.BINH_LUAN.Where(x => x.IDBaiHoc == lesson.IDBaiHoc).ToList();
+                }
+                @Html.Partial("Comment",comments)
+                <div class="comment-form">
+                    <h4>Leave a Comment</h4>
+                    <form action="/Lesson/Comment" method="post">
+                       
+                       
+                        <div class="form-group">
+                            <textarea class="form-control mb-10" rows="5" name="content" placeholder="Nhận xét về bài học" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Nhận xét về bài học'"
+                                      required=""></textarea>
+                        </div>
+                       <input type="hidden" name="IDLesson" value="@lesson.IDBaiHoc" />
+                        <input type="hidden" name="IDCourse" value="@lesson.KHOA_HOC.IDKhoaHoc" />
+                        <input type="submit" class="primary-btn" value="Post Comment" />
+                    </form>
+                </div>
+            </div>
+
+            <div class="col-lg-4 sidebar-widgets">
+                <div class="widget-wrap">
+                    <div class="single-sidebar-widget search-widget">
+                        <form class="search-form" action="#">
+                            <input style="outline:none;" placeholder="Search Posts" name="search" type="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Search Posts'">
+                            <button type="submit"><i class="fa fa-search"></i></button>
+                        </form>
+                    </div>
+                    
+                    <div class="single-sidebar-widget popular-post-widget" style="overflow-y:auto; max-height:385px;">
+                        <h4 class="popular-title">Danh Sách Bài Học</h4>
+                        <div class="popular-post-list">
+                            @foreach (var item in Model)
+                            {
+                                <div class="single-post-list d-flex flex-row align-items-center">
+                                    <div class="thumb">
+                                        <a href="/Lesson/Display?IDLesson=@item.IDBaiHoc&IDCourse=@item.KHOA_HOC.IDKhoaHoc">
+                                            <img style="width:100px;height:60px;" class="img-fluid" src="~/Content/img/PicEnglish/@item.KHOA_HOC.img" alt="">
+                                        </a>
+                                        
+                                    </div>
+                                    <div class="details">
+                                        <a href="blog-single.html"><h6>@item.TenBaiHoc</h6></a>
+                                        <p>02 Hours ago</p>
+                                    </div>
+                                </div>
+                            }
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
